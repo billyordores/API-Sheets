@@ -1,0 +1,28 @@
+{
+  "name": "api-sheets",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev" : "nodemon ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/billyordores/API-Sheets.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/billyordores/API-Sheets/issues"
+  },
+  "homepage": "https://github.com/billyordores/API-Sheets#readme",
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "googleapis": "^104.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.18"
+  }
+}
